@@ -73,9 +73,23 @@
     .teams{
         flex-direction: column;
     }
-    .team-image-container{
-        grid-template-columns: repeat(1, 1fr);
+    .team-image-container, 
+    .fact-container,
+    .sponsor-companies
+    {
+        grid-template-columns: 1fr;
     }
+    .fact-container{
+      justify-items: center;
+      gap: 24px;
+    }
+
+    .sponsor-companies{
+      justify-items: center;
+      gap: 50px;
+    }
+
+
 
     .of-our{
       margin-left: 20px;
@@ -167,3 +181,19 @@
  .fact-discription{
   max-width: 540px;
  }
+ /* our response */
+
+ .our-container{
+  max-width: 550px;
+  margin: 50px auto;
+  text-align: center;
+ }
+
+ .sponsor-companies{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ }
+ .sponsor-companies img{
+  filter: grayscale(100%);
+ }
+
