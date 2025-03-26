@@ -107,6 +107,11 @@
   .of-our{
     margin: 50 auto;
   }
+  .sponsor-companies{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
+  }
   
  }
   
@@ -148,6 +153,29 @@
   margin-left: 130px;
   max-width: 530px;
 
+ }
+
+ /* features relative */
+
+ #bangladesh{
+  border-left: 5px solid #FF900E;
+  padding: 20px;
+ }
+
+ .features{
+  display: flex;
+  gap: 140px;
+ }
+ .features-carda{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06 );
+ }
+ .features-card, .features-title{
+  font-weight: 600;
+  font-size: 1.10rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
  }
 
  /* fact-card relative */
